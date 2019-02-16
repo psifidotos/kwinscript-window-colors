@@ -3,18 +3,23 @@
 This is a KWin script that sends window colors information to Latte through dbus interface. This script is coming from [Latte land](https://phabricator.kde.org/source/latte-dock/repository/master/)
 
 <p align="center">
-<img src="https://i.imgur.com/Zdjshmt.png" width="580"><br/>
-<i>Window Title left to Plasma 5 global menu</i>
+<img src="https://i.imgur.com/ibJUOwd.png" width="256"><br/>
+<i>Window Colors</i>
 </p>
 
 <p align="center">
-<img src="https://i.imgur.com/qPenRaj.png" width="580"><br/>
-<i>Appearance Settings</i>
+<img src="https://i.imgur.com/PBjqZaa.png" width="580"><br/>
+<i>Red window</i>
 </p>
 
 <p align="center">
-<img src="https://i.imgur.com/cxBeWOI.png" width="580"><br/>
-<i>Behavior Settings</i>
+<img src="https://i.imgur.com/rOdPmn0.png" width="580"><br/>
+<i>Dark window</i>
+</p>
+
+<p align="center">
+<img src="https://i.imgur.com/Bx2joV1.png" width="580"><br/>
+<i>Light window</i>
 </p>
 
 # Requires
