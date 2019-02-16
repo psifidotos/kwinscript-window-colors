@@ -31,6 +31,6 @@ This is a KWin script that sends window colors information to Latte through dbus
 
 This is a KWin script and as such it can be easily installed from _**Plasma System Settings -> Window Management -> KWin Scipts -> Get New Scripts**_
 
-or you can execute `plasmapkg2 --type kwinscript -i .` in the root directory of the script
+or you can execute `plasmapkg2 -i .` in the root directory of the script
 
 
