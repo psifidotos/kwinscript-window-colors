@@ -3,7 +3,7 @@
 This is a KWin script that sends window colors information to Latte through dbus interface. This script is coming from [Latte land](https://phabricator.kde.org/source/latte-dock/repository/master/)
 
 <p align="center">
-<img src="https://i.imgur.com/ibJUOwd.png" width="256"><br/>
+<img src="https://i.imgur.com/ibJUOwd.png" width="128"><br/>
 <i>Window Colors</i>
 </p>
 
@@ -29,6 +29,8 @@ This is a KWin script that sends window colors information to Latte through dbus
 
 # Install
 
-This is a QML applet and as such it can be easily installed from Plasma 5 Widgets Explorer or alternative you can execute `plasmapkg2 -i .` in the root directory of the applet.
+This is a KWin script applet and as such it can be easily installed from _**Plasma SystemSettings -> Window Management -> KWin Scipts -> Get New Scripts**_
+
+alternative you can execute `plasmapkg2 -i .` in the root directory of the script
 
 
