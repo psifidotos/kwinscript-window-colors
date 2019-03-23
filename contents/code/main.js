@@ -19,6 +19,20 @@ var windowsWithAlternativeSchemes = [];
 
 workspace.clientActivated.connect(clientActivatedSlot);
 workspace.clientRemoved.connect(clientRemovedSlot);
+workspace.clientAdded.connect(connectSignals);
+
+// connect all existing clients
+var clients = workspace.clientList();
+for (var i=0; i<clients.length; i++) {
+    connectSignals(clients[i]);
+}
+
+//! Functions
+function connectSignals(client) {
+    client.colorSchemeChanged.connect(client, function () {
+        clientActivatedSlot(this);
+    });
+}
 
 function validId(client) {
     var id = client.windowId;
